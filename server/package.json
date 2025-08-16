@@ -1,0 +1,26 @@
+{
+  "name": "scrapisimo-server",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "franc": "^6.1.0",
+    "helmet": "^7.0.0",
+    "langs": "^2.0.0",
+    "morgan": "^1.10.0",
+    "p-limit": "^4.0.0",
+    "uuid": "^9.0.1",
+    "zod": "^3.22.4",
+    "fast-csv": "^4.3.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}

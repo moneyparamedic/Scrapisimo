@@ -1,0 +1,15 @@
+{
+  "name": "scrapisimo",
+  "private": true,
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "concurrently \"npm:dev:server\" \"npm:dev:web\"",
+    "dev:server": "npm --prefix server run dev",
+    "dev:web": "npm --prefix web run dev",
+    "install:all": "npm --prefix server i && npm --prefix web i"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.1"
+  }
+}
