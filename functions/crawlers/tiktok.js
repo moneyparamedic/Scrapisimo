@@ -13,7 +13,7 @@ export async function runTikTok({ mode, keyword, urls, limits }) {
         launchContext: {
             useChrome: true,
             launchOptions: {
-                headless: true,
+                headless: false,
                 args: ['--no-sandbox', '--disable-dev-shm-usage', '--disable-blink-features=AutomationControlled', `--user-agent=${UA}`, '--lang=en-US,en']
             },
         },
